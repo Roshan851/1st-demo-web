@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("girl-3253532_1920.jpg");
+    color: white;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.right {
+    display: inline-block;
+    right: 34px;
+    top: 20px;
+    position: absolute;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 45px 17px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width: 90px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    margin: 12px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(117, 122, 134);
+}
+.container{
+    border: 2px solid white;
+    margin: 88px 154px;
+    padding: 42px 34px;
+    width: 33%;
+    border-radius: 35px;
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    font-size: 19px;
+    border-radius: 12px;
+    font-family: 'Baloo 2', cursive;
+    display: block;
+    width: 405px;
+    border: 2px solid black;
+    margin: 2px auto;
+
+}
+.container button{
+    display: block;
+    width: 82%;
+    margin: 2px auto;
+    font-size: 19px;
+}
